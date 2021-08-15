@@ -7,7 +7,7 @@ The app is an online cook book that allows you to search an ingredient and recip
 
 1. the first table will just be ingredients with an ID and the name.
 2. the second will be a recipe with an ID, name, and the person who created it.
-3. the third table will be used to match the ID of the recipe with the ID of the ingredients used.
+3. the third table will be used to match the ID of the recipe with the ID of the ingredients used. This is a many to many bridge table.
 4. I will also have a users table with a name, email, and password for the users of the app
 
 
