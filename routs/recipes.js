@@ -4,4 +4,11 @@ const recipesController = require('../controllers/recipes')
 
 router.get('/recipes', recipesController.getRecipes)
 
-  module.exports = router;
+router.get('/addRecipe', recipesController.addRecipe)
+
+router.get('updateRecipe/:id', recipesController.updateRecipe)
+
+router.get('/deleteRecipe/:id', recipesController.deleteRecipe)
+ 
+
+module.exports = router;
